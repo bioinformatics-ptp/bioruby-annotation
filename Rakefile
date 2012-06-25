@@ -17,11 +17,12 @@ Jeweler::Tasks.new do |gem|
   gem.name = "bio-annotation"
   gem.homepage = "http://github.com/fstrozzi/bioruby-annotation"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Annotation pipeline for RNA-seq data}
+  gem.description = %{Annotation pipeline for RNA-seq data using Neo4j graph database}
   gem.email = "francesco.strozzi@gmail.com"
   gem.authors = ["Francesco Strozzi"]
-  # dependencies defined in Gemfile
+	gem.platform = "java"
+	# dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
 

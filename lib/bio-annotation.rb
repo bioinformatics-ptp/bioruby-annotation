@@ -8,5 +8,6 @@
 #
 # In this file only require other files. Avoid other source code.
 
-require 'bio-annotation/annotation.rb'
+require 'bio-annotation/importer.rb'
+require 'bio-annotation/nodes.rb'
 
